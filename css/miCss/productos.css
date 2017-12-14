@@ -1,0 +1,134 @@
+        
+.header{padding-left: 0px;padding-right: 0px}    
+            
+        span,ol, ul, li,footer, header{
+            margin: 0;
+            padding: 0;
+            border: 0;
+            font-size: 100%;
+        }
+
+
+        ol, ul {
+                list-style: none;
+        }
+
+
+
+        table {
+                border-collapse: collapse;
+                border-spacing: 0;
+        }
+
+
+        
+
+        .clearfix {
+                clear: both;
+        }
+
+
+        nav {
+                background-image: linear-gradient(#ded, #ccd);
+                border-radius: 6px;
+                padding: 0 10px;
+                font-size: 20px;
+        }
+        
+        
+        
+        .menu li {
+                float: left;
+                position: relative;
+        }
+
+        .menu li a {
+                color: #444;
+                display: block;
+                font-size: 20px;
+                line-height: 20px;
+                padding: 6px 12px;
+                margin: 8px 8px;
+                vertical-align: middle;
+                text-decoration: none;
+                font-family: comic sans-serif;
+        }
+
+        .menu li a:hover {
+                background: -webkit-gradient(linear, center top, center bottom, from(#ededed), to(#fff));
+                background-image: linear-gradient(#ededed, #fff);
+                border-radius: 12px;
+                box-shadow: inset 0px 0px 1px 1px rgba(0,0,0,0.1);
+                color: #222;
+        }
+
+
+        .menu ul {
+                position: absolute;
+                left: -9999px;
+                list-style: none;
+                opacity: 0;
+                transition: opacity 1s ease;
+
+        }
+
+
+
+        /* Muestra lo que hay dentro de cada indice */
+        .menu li:hover ul {
+                background: rgba(255,255,255,0.7);
+                border-radius: 0 0 6px 6px;
+                box-shadow: inset 0px 2px 4px rgba(0,0,0,0.4);
+                left: 5px;
+                opacity: 1;
+                z-index: 1;
+                background-color: aliceblue;
+        }
+
+        
+        #logo{
+            background-image: url("images/logo.jpg");
+            background-size: contain;
+            height: 200px;
+            background-repeat: no-repeat;
+        }
+        
+        #logo1{
+        position: fixed;width: 16%;height: 53%;       
+        }
+        
+
+        
+        .cuerpo{
+            background-color: #ededed;
+            border-radius: 6px;
+            padding-left: 0px;
+            padding-right: 0px;
+            margin-top: 1%;
+        }
+        
+        .inicio{
+            font-family: serif;
+        }
+        
+        /*PIE*/
+        .caja{
+            margin-top: 5%;
+        }
+        .cajaIzq{
+            color:#FFFFFF;
+            font-size:18px;
+            padding-left: 40px;
+            padding-bottom: 40px;
+            
+        }
+        .cajaDerecha{
+            text-align:right;
+            color:#FFFFFF;
+            font-size:18px;
+            padding-right: 40px;
+            padding-bottom: 40px;
+            
+        }
+        
+        #subir1{font-size: 70px;background-color: brown;border-radius: 45px;padding-left: 4.4px;padding-right: 4.3px;}
